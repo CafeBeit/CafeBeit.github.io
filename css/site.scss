@@ -20,7 +20,10 @@ html,
 body {
   width: 100%;
   font-size: 100%;
-  background: $cream;
+  background: url("../content/dino.png")$cream;
+  background-size: 16%;
+  background-repeat: no-repeat;
+  background-position: 15% 8%;
   color: $black;
 }
 
