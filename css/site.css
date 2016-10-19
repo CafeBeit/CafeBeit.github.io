@@ -33,6 +33,7 @@ i {
   color: #4876ea; }
 
 .background {
+  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,6 +52,10 @@ i {
       left: 0;
       background-size: 16%;
       background-position: 15% 50%; } }
+
+main {
+  position: relative;
+  z-index: 10; }
 
 section {
   height: 100vh;
